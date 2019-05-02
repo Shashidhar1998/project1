@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.pojo.feedback" table = "feedback">
+      
+      <meta attribute = "class-description">
+         This class helps to add doctor. 
+      </meta>
+      
+      <id name = "id" type = "int" column = "id"> 
+        <generator class="native"></generator>     
+      </id>
+      
+     <property name = "name" column = "name" type = "string"/>
+     <property name = "email" column = "email" type = "string"/>
+     <property name = "subject" column = "subject" type = "string"/>
+     <property name = "message" column = "message" type = "string"/>
+     <property name = "dateandtime" column = "dateandtime" type = "string"/>
+     <property name = "readstatus" column = "readstatus" type = "string"/>
+    
+     </class>
+</hibernate-mapping>

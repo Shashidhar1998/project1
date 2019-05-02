@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.pojo.addhospitalmodel" table = "hospitaldetails">
+      
+      <meta attribute = "class-description">
+         This class contains the login details. 
+      </meta>
+      
+      <id name = "id" type = "int" column = "hospital_id">
+     <generator class="native"></generator>
+      </id>
+      <property name = "uniqueid" column = "hospital_unique_id" type = "string"/>
+      <property name = "status" column = "status" type = "int"/>
+      <property name = "name" column = "hospital_name" type = "string"/>
+      <property name = "address1" column = "addressline_1" type = "string"/>
+      <property name = "address2" column = "addressline_2" type = "string"/>
+      <property name = "state" column = "state" type = "string"/>
+      <property name = "city" column = "city" type = "string"/>
+      <property name = "pin" column = "pin" type = "string"/>
+      <property name = "certifications" column = "certifications" type = "string"/>
+      <property name = "success" column = "successfuloperations" type = "string"/>
+      <property name = "achievements" column = "achievements" type = "string"/>
+      <property name = "optional" column = "optional" type = "string"/>
+   </class>
+</hibernate-mapping>

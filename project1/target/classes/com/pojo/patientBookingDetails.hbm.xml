@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.pojo.patientBookingDetails" table = "patientBookingDetails">
+      
+      <meta attribute = "class-description">
+         This class helps to add doctor. 
+      </meta>
+      
+      <id name = "id" type = "int" column = "Tableid"> 
+        <generator class="native"></generator>     
+      </id>
+     <property name = "hospital_id" column = "hospital_id" type = "string"/>
+     <property name = "UserID" column = "UserID" type = "string"/>
+      <property name = "patientname" column = "patientname" type = "string"/>
+     <property name = "doctorid" column = "doctor_id" type = "string"/>
+      <property name = "doctor_name" column = "doctor_name" type = "string"/>
+     <property name = "disease" column = "disease" type = "string"/>
+     <property name = "prescriptionprovided" column = "prescriptionprovided" type = "string"/>
+       <property name = "status" column = "progress" type = "string"/>
+      <property name = "date" column = "date" type = "string"/>
+       <property name = "slots" column = "slots" type = "string"/>
+        <property name = "speciality" column = "speciality" type = "string"/>
+  
+     
+   </class>
+</hibernate-mapping>

@@ -1,0 +1,243 @@
+html, body {
+    padding: 0!important;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Grande","Segoe UI",Arial,sans-serif;
+}
+
+.blog-post img, .blog-sidebar img{
+    margin: 20px 0;
+}
+
+.rounded-circle{
+    margin-bottom: 20px;
+}
+
+#viewDiv{
+    padding: 0;
+    margin: 0;
+    height: 93%;
+    width: 100%;
+}
+
+.main-pic-bg{
+    background-color:rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    color: #fff;
+}
+
+.filter-container{
+    padding-top: 10px;
+    background-color: #dddddd;
+    border-bottom:1px solid #000000;
+}
+
+.home-task-ul{
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.home-task-ol{
+    text-align:left;
+}
+
+.tool-bar{
+
+}
+
+
+select{
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+#map{
+    float: right;
+    width: 80%;
+    height: 98%;
+    margin: 0;
+    padding: 0;
+}
+
+#leftMenu{
+    float: left;
+    height: 100%;
+    width: 15%;
+    display: block;
+    min-width: 200px;
+    padding:18px;
+}
+
+#menuControl{
+    margin-top: 20px;
+}
+
+#HomeButton {
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    z-index: 50;
+}
+
+#info {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    padding: 10px;
+    background-color: #ddd;
+    font: 14px Segoe UI;
+    width: 145px;
+    text-align: center;
+    border-radius: 10px 0 0 0;
+    border: solid 1px #aaa;
+}
+
+
+#advanceContainer{
+    width: 90%;
+    margin:10px auto 0;
+    padding: 10px;
+    border: solid 1px #aaaaaa;
+}
+
+.restitle{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.resimg{
+    width: 90px;
+    height: 90px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.blocktitle{
+    font-weight: 600;
+}
+
+.raceLayer{
+    display: none;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.titleLogo{
+    height: 35px;
+}
+
+.infobox-img{
+    float: right;
+    width: 120px;
+    height: 120px;
+    margin: 5px 10px 0 0;
+    border-radius: 5px;
+}
+
+.infobox-title{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none!important;
+}
+
+.infobox-table{
+    float: left;
+    width: 250px;
+    display: block;
+}
+
+.infobox-table span{
+    font-size: 14px;
+    display: block;
+    width: 245px;
+    word-wrap: break-word;
+}
+
+.infobox2-table{
+    clear: both;
+    width: 100%;
+    font-size: 14px;
+}
+
+.infobox2-table .infotitle{
+    width: 250px;
+}
+
+.infobox2-table .toptitle{
+    font-weight: 600;
+}
+
+.infobox-tags{
+    color:#00008b;
+}
+
+.infobox-stars{
+    background: url('../img/stars.png') no-repeat;
+    width: 102px;
+    height: 18px;
+}
+
+
+
+/*Override diji menu*/
+.dijitMenuTable{
+    border: 1px solid #6c757d;
+}
+
+.dijitMenuTable td{
+    padding: 5px;
+    font-size: small;
+}
+.dijitMenuTable tr:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.dijitMenuItemSelected, .dijitMenuItemFocused{
+    background-color: #fff;
+    color: #000;
+}
+
+.predict-menu{
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.predict-newicon {
+    background-image: url('../img/star-menuicon.png');
+}
+
+.predict-demoicon {
+    background-image: url('../img/demg-menuicon.png');
+}
+
+.predict-predicticon {
+    background-image: url('../img/predict-menuicon.png');
+}
+
+.predict-removeicon {
+    background-image: url('../img/remove-menuicon.png');
+}
+
+.predict-moveicon{
+    background-image: url('../img/move-menuicon.png');
+}
+
+.predict-loading{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.small-select{
+    width: 250px;
+    padding: 0 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+}

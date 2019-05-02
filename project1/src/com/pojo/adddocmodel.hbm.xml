@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.pojo.adddoc" table = "doctorDetails">
+      
+      <meta attribute = "class-description">
+         This class helps to add doctor. 
+      </meta>
+      
+      <id name = "id" type = "int" column = "tableid"> 
+        <generator class="native"></generator>     
+      </id>
+      
+     <property name = "hospitalid" column = "hospital_id" type = "string"/>
+     <property name = "doctorid" column = "doctor_id" type = "string"/>
+     <property name = "doctorname" column = "doctor_name" type = "string"/>
+     <property name = "gender" column = "gender" type = "string"/>
+     <property name = "age" column = "age" type = "string"/>
+     <property name = "qualification" column = "qualification" type = "string"/>
+     <property name = "speciality" column = "speciality" type = "string"/>
+     <property name = "email" column = "email" type = "string"/>
+     <property name = "mobileno" column = "mobileno" type = "string"/>
+   </class>
+</hibernate-mapping>

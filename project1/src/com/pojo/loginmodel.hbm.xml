@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.pojo.loginmodel" table = "adminlogin">
+      
+      <meta attribute = "class-description">
+         This class contains the login details. 
+      </meta>
+      
+      <id name = "id" type = "int" column = "id"> 
+        <generator class="native"></generator>     
+      </id>
+      
+     <property name = "UserID" column = "UserID" type = "string"/>
+      <property name = "Password" column = "Password" type = "string"/>
+       <property name = "Email" column = "Email" type = "string"/>
+        <property name = "ContactNumber" column = "ContactNumber" type = "string"/>
+      <property name = "type" column = "type" type = "string"/>
+   </class>
+</hibernate-mapping>
